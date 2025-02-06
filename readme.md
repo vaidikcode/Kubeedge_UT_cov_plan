@@ -61,6 +61,8 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 - **Coverage**: **22.58%**
 - **Focus Areas**: 
 
+>This Package seems to have lowest coverage rate so the whole report is very detailed for this. 
+
 >I have thoroughly reviewed the keadm command tool, and it appears that many files were never tested or included in the test coverage shown on Codecov. I went through each of these files and aimed to achieve over 90% coverage for their unit tests. I understand that we don't want to write unit tests for everything; however, I have attempted to cover as much of the code as possible. We will need to discuss what to prioritize for unit testing to avoid introducing unnecessary burdens.
 
 > Another significant observation is that the utility package in KubeEdge, located at `/keadm/cmd/keadm/app/cmd/util`, primarily contains code related to root access and various operations in containerized environments. This can also be tested through integration or end-to-end tests. However, this situation causes the overall code coverage to drop significantly. If needed, we can always mock environments to write unit tests when necessary.
