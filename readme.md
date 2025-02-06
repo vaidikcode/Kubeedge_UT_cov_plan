@@ -9,6 +9,9 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 - Enhance test coverage for critical files and directories.
 - Provide a clear mapping of **covered** and **uncovered** lines for each file.
 - Document strategies to close the gaps in coverage.
+- Every bit of code report is coevered in keadm and the whole report on this package is very detailed. Every other core package is covered too but not as detailed as keadm.
+- I have used multiple tools to approximate the no of lines that will be after the implementation of the test logic written in every file's report.
+The coverage percentage approximations will be very close to the actual coverage range as every bit of file is covered making the numbers pretty accurate.
 
 ---
 
@@ -86,4 +89,5 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 3. The work on viaduct packge is already in progress Under the issue To update quick go and add supplement tets. I have updated the code to handle context. Need to to resolve build failures and change assertions but already reaching 95% coverage there.
 
 (Viaduct PR)[https://github.com/kubeedge/kubeedge/pull/6111]
+
 
