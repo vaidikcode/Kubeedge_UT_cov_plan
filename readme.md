@@ -61,15 +61,21 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 - **Coverage**: **22.58%**
 - **Focus Areas**: 
 
->This Package seems to have lowest coverage rate so the whole report is very detailed for this. 
+1. This Package seems to have lowest coverage rate so the whole report is very detailed for this. 
 
->I have thoroughly reviewed the keadm command tool, and it appears that many files were never tested or included in the test coverage shown on Codecov. I went through each of these files and aimed to achieve over 90% coverage for their unit tests. I understand that we don't want to write unit tests for everything; however, I have attempted to cover as much of the code as possible. We will need to discuss what to prioritize for unit testing to avoid introducing unnecessary burdens.
+2. I have thoroughly reviewed the keadm command tool, and it appears that many files were never tested or included in the test coverage shown on Codecov. I went through each of these files and aimed to achieve over 90% coverage for their unit tests. I understand that we don't want to write unit tests for everything; however, I have attempted to cover as much of the code as possible. We will need to discuss what to prioritize for unit testing to avoid introducing unnecessary burdens.
 
-> Another significant observation is that the utility package in KubeEdge, located at `/keadm/cmd/keadm/app/cmd/util`, primarily contains code related to root access and various operations in containerized environments. This can also be tested through integration or end-to-end tests. However, this situation causes the overall code coverage to drop significantly. If needed, we can always mock environments to write unit tests when necessary.
+3. Another significant observation is that the utility package in KubeEdge, located at `/keadm/cmd/keadm/app/cmd/util`, primarily contains code related to root access and various operations in containerized environments. This can also be tested through integration or end-to-end tests. However, this situation causes the overall code coverage to drop significantly. If needed, we can always mock environments to write unit tests when necessary.
 
 #### **4. Pkg Package (`pkg/`)**
 - **Coverage**: **48.92%**
-- **Focus Areas**: Write UTs for helper functions.
+- **Focus Areas and Obserbvations**
 
----
+1. High percentage seems pretty achievable.
+
+2. I have encountered many files that are not even in codecov but they need ut. Might need to discuss with mentors to decide on that
+
+3. The work on viaduct packge is already in progress Under the issue To update quick go and add supplement tets. I have updated the code to handle context. Need to to resolve build failures and change assertions but already reaching 95% coverage there.
+
+(Viaduct PR)[https://github.com/kubeedge/kubeedge/pull/6111]
 
