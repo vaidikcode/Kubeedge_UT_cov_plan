@@ -51,7 +51,15 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 
 #### **1. Cloud Package (`cloud/`)**
 - **Coverage Before**: **31.97%**
-- **Focus Areas & Observations**: 
+- **Focus Areas & Observations**
+
+# Pkg directory in Cloud Pkg Coverage Improvent
+
+1. It was trying to cover the whole report in this but it seems guidance of mentors on this particular pkg is necessary and we definately need a long discussion on what to teste here. Target of 7000+ line tested is achieveable. Although i have reviewed almost all the code but generating reports on all is not worth the effort.
+
+> 7000+/8000
+
+2. **cmd** package is thoroughly covered here though.
 
 #### **2. Edge Package (`edge/`)**
 - **Coverage**: **56.96%**
@@ -59,7 +67,7 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 
 #### **3. Keadm Package (`keadm/`)**
 - **Coverage**: **22.58%**
-- **Focus Areas**: 
+- **Focus Areas and Observations**: 
 
 1. This Package seems to have lowest coverage rate so the whole report is very detailed for this. 
 
@@ -69,7 +77,7 @@ This proposal addresses the current Unit Test (UT) coverage across the `KubeEdge
 
 #### **4. Pkg Package (`pkg/`)**
 - **Coverage**: **48.92%**
-- **Focus Areas and Obserbvations**
+- **Focus Areas and Observations**
 
 1. High percentage seems pretty achievable.
 
