@@ -6,7 +6,7 @@
 
 I poured my heart and expertise into this analysis, demonstrating my genuine passion for code quality and testing excellence.
 
-![Deep Analysis](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+![Deep Analysis](https://media3.giphy.com/media/2zUn8hAwJwG4abiS0p/giphy.gif?cid=6c09b952efo3f3wfqv74l6ouabxhi7tgj5rtd7062stlyqtl&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ## 🚀 What Makes This Analysis Special
 
@@ -42,7 +42,7 @@ Should my approach align with your vision, I'm ready to:
 - Drive code quality initiatives
 - Share knowledge with the team
 
-![Collaboration](https://media.giphy.com/media/3oKIPrc2ngFZ6BTyww/giphy.gif)
+![Collaboration](https://media1.giphy.com/media/Wf9dyOrB0nGJn5FIYf/200w.gif?cid=6c09b952oxj34vy8zkejl4mcpvh9s19gpn8ga6ovr2gl6yo4&ep=v1_stickers_search&rid=200w.gif&ct=s)
 
 ---
 [![Code Coverage](https://img.shields.io/badge/Code%20Coverage-Detailed%20Analysis-brightgreen)]()
