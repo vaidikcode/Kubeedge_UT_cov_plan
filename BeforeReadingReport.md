@@ -1,6 +1,6 @@
 # ✨ Important Note Regarding This Report ✨
 
-![Coding Animation](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+![Coding Animation](https://media.tenor.com/-HxZPr742BwAAAAM/meme-cat.gif)
 
 ## 💫 Dedication & Commitment
 
