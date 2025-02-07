@@ -17,36 +17,24 @@ The coverage percentage approximations will be very close to the actual coverage
 
 ### 📁 **Package Coverage Breakdown Before Implementaion**
 
-| Package | Tracked Lines | Covered | Partial | Missed | Coverage % |
-|---------|---------------|---------|---------|--------|------------|
-| `cloud/` | **9,348**    | 2,989   | 205     | 6,154  | **31.97%** |
-| `edge/`  | **6,903**    | 3,932   | 191     | 2,780  | **56.96%** |
-| `keadm/` | **4,703**    | 1,062   | 48      | 3,593  | **22.58%** |
-| `pkg/`   | **1,298**    | 635     | 52      | 611    | **48.92%** |
-| **Subtotal** | **22,252** | **8,618** | 496 | **13,138** | **38.69%** |
+| Package | Tracked Lines | Covered | Partial | Missed | Coverage % | Target%    |
+|---------|---------------|---------|---------|--------|------------|------------|
+| `cloud/` | **9,348**    | 2,989   | 205     | 6,154  | **31.97%** | **87.39%** | 7417/8487 
+| `edge/`  | **6,903**    | 3,932   | 191     | 2,780  | **56.96%** |    TBD     |
+| `keadm/` | **4,703**    | 1,062   | 48      | 3,593  | **22.58%** | **77.29%** | 6674/8641
+| `pkg/`   | **1,298**    | 635     | 52      | 611    | **48.92%** | **83.01%** | 1168/1407
+| **Subtotal** | **22,252** | **8,618** | 496 | **13,138** | **38.69%** |            |
 
 ---
 
 ### 🛠️ **Plan Details**
 
-#### **Covered Files**
-- **Naming Convention**: Files present in the Codecov report follow the pattern `C-87->99`, with `C` indicating coverage status and percentages showing changes.
-- **Example**:
-    - File: `xyz.go` | Coverage: 87%
-    - Logic Covered: ✅ Function A, ✅ Function B
-    - Uncovered Logic: ❌ Function C, ❌ Error Scenarios
 
-#### **Uncovered Files**
-- **Naming Convention**: Files absent from the Codecov report are named as `N-0->%88`.
-- **Focus**: Need to write unit tests for them from scratch.
 
 #### **Proper way To Analyse my report**
-1. **Open Pkg**:
+- **Open Pkg**:
     - Open the package and locate the file you want to see the ut test report on.
-2. **Covered File**:
-    - If it's a covered file it will have a syntax like this `C-80->99` which just means it was inlined in the codecov report provided which already covered a bit of code from total code in the file. So therefore the increase uncovered lines will increase the overall percentage of code covered. Each file will have logic to impleneting the increase.
-3. **UnCovered File**:
-    - if It's and uncovered file(was not present in codecov report, somehow no line of code in the file was not testable or was never tested), it will have a syntax like this `N-0->100` in its prefix in name. Similarly Logic will be included for implementaion along aith lines introduced line tested and percentages for both.
+
 
 ---
 
@@ -56,7 +44,7 @@ The coverage percentage approximations will be very close to the actual coverage
 - **Coverage Before**: **31.97%**
 - **Focus Areas & Observations**
 
-# Pkg directory in Cloud Pkg Coverage Improvent
+- Pkg directory in Cloud Pkg Coverage Improvent
 
 1. It was trying to cover the whole report in this but it seems guidance of mentors on this particular pkg is necessary and we definately need a long discussion on what to teste here. Target of 7000+ line tested is achieveable. Although i have reviewed almost all the code but generating reports on all is not worth the effort.
 
@@ -67,6 +55,8 @@ The coverage percentage approximations will be very close to the actual coverage
 #### **2. Edge Package (`edge/`)**
 - **Coverage**: **56.96%**
 - **Focus Areas**: Optimize integration tests, focus on high-impact modules.
+
+1. I have not made a very detailed report on this as there is no matrix testing approximations but i have mentioned the test logic. This was all beacuse it is not worth the effort because this needs to be discussed with the maintainers first on what to cover here.
 
 #### **3. Keadm Package (`keadm/`)**
 - **Coverage**: **22.58%**
